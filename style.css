@@ -4,7 +4,7 @@ body {
   background-color: #191622;
   color: #fff;
   font-family: 'Roboto Mono', monospace;
-  overflow: hidden;
+  padding: 1.25rem;
 }
 
 a {
@@ -15,7 +15,7 @@ a {
 footer {
   font-size: 14px;
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .header {
@@ -26,9 +26,8 @@ footer {
   justify-content: center;
 }
     .container {
-      width: 100rem;
-      margin: 0 auto;
       display: flex;
+      margin: 0 auto;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
