@@ -47,8 +47,8 @@ footer {
       justify-content: center;
       text-align: center;
       border-radius: 5px;
-      box-shadow: 10px 10px 10px #41414D;
       margin: 20px;
+      border: solid 5px #fff;
     }
 
     .box p {
