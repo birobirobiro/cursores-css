@@ -18,6 +18,11 @@ footer {
   padding-top: 5rem;
 }
 
+.span-header {
+  display: flex;
+  gap: 1rem;
+}
+
 .header {
   width: 100vw;
   display: flex;
