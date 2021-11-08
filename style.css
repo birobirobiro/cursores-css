@@ -7,6 +7,17 @@ body {
   overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10rem;
+}
+
 .header {
   width: 100vw;
   display: flex;
