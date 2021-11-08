@@ -1,202 +1,203 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
-
 body {
-  background-color: #191622;
-  color: #fff;
-  font-family: 'Roboto Mono', monospace;
-  padding: 1.25rem;
+	background-color: #191622;
+	color: #fff;
+	font-family: 'Roboto Mono', monospace;
+	padding: 1.25rem;
 }
 
 a {
-  text-decoration: none;
-  color: #f1f1f1;
+	text-decoration: none;
+	color: #f1f1f1;
 }
 
 footer {
-  font-size: 14px;
-  text-align: center;
-  padding-top: 5rem;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 5rem;
 }
 
 .span-header {
-  display: flex;
-  gap: 1rem;
+	display: flex;
+	gap: 1rem;
 }
 
 .header {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 1rem;
 }
-    .container {
-      display: flex;
-      margin: 0 auto;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-    }
 
-    .box {
-      display: flex;
-      font-weight: 700;
-      background-color: #8257e5;
-      width: 8rem;
-      height: 7rem;
-      justify-content: center;
-      text-align: center;
-      border-radius: 5px;
-      margin: 20px;
-      border: solid 5px #fff;
-    }
+.container {
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
 
-    .box p {
-      font-size: 15px;
-    }
-    
-    .alias {
-      cursor: alias;
-    }
+.box {
+	display: flex;
+	font-weight: 700;
+	background-color: #8257e5;
+	width: 8rem;
+	height: 7rem;
+	justify-content: center;
+	text-align: center;
+	border-radius: 5px;
+	margin: 20px;
+	border: solid 5px #fff;
+}
 
-    .all-scroll {
-      cursor: all-scroll;
-    }
+.box p {
+	font-size: 15px;
+}
 
-    .auto {
-      cursor: auto;
-    }
+.alias {
+	cursor: alias;
+}
 
-    .cell {
-      cursor: cell;
-    }
+.all-scroll {
+	cursor: all-scroll;
+}
 
-    .context-menu {
-      cursor: context-menu;
-    }
+.auto {
+	cursor: auto;
+}
 
-    .col-resize {
-      cursor: col-resize;
-    }
+.cell {
+	cursor: cell;
+}
 
-    .copy {
-      cursor: copy;
-    }
+.context-menu {
+	cursor: context-menu;
+}
 
-    .crosshair {
-      cursor: crosshair;
-    }
+.col-resize {
+	cursor: col-resize;
+}
 
-    .default {
-      cursor: default;
-    }
+.copy {
+	cursor: copy;
+}
 
-    .e-resize {
-      cursor: e-resize;
-    }
+.crosshair {
+	cursor: crosshair;
+}
 
-    .ew-resize {
-      cursor: ew-resize;
-    }
+.default {
+	cursor: default;
+}
 
-    .grab {
-      cursor: -webkit-grab;
-      cursor: grab;
-    }
+.e-resize {
+	cursor: e-resize;
+}
 
-    .grabbing {
-      cursor: -webkit-grabbing;
-      cursor: grabbing;
-    }
+.ew-resize {
+	cursor: ew-resize;
+}
 
-    .help {
-      cursor: help;
-    }
+.grab {
+	cursor: -webkit-grab;
+	cursor: grab;
+}
 
-    .move {
-      cursor: move;
-    }
+.grabbing {
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
 
-    .n-resize {
-      cursor: n-resize;
-    }
+.help {
+	cursor: help;
+}
 
-    .ne-resize {
-      cursor: ne-resize;
-    }
+.move {
+	cursor: move;
+}
 
-    .nesw-resize {
-      cursor: nesw-resize;
-    }
+.n-resize {
+	cursor: n-resize;
+}
 
-    .ns-resize {
-      cursor: ns-resize;
-    }
+.ne-resize {
+	cursor: ne-resize;
+}
 
-    .nw-resize {
-      cursor: nw-resize;
-    }
+.nesw-resize {
+	cursor: nesw-resize;
+}
 
-    .nwse-resize {
-      cursor: nwse-resize;
-    }
+.ns-resize {
+	cursor: ns-resize;
+}
 
-    .no-drop {
-      cursor: no-drop;
-    }
+.nw-resize {
+	cursor: nw-resize;
+}
 
-    .none {
-      cursor: none;
-    }
+.nwse-resize {
+	cursor: nwse-resize;
+}
 
-    .not-allowed {
-      cursor: not-allowed;
-    }
+.no-drop {
+	cursor: no-drop;
+}
 
-    .pointer {
-      cursor: pointer;
-    }
+.none {
+	cursor: none;
+}
 
-    .progress {
-      cursor: progress;
-    }
+.not-allowed {
+	cursor: not-allowed;
+}
 
-    .row-resize {
-      cursor: row-resize;
-    }
+.pointer {
+	cursor: pointer;
+}
 
-    .s-resize {
-      cursor: s-resize;
-    }
+.progress {
+	cursor: progress;
+}
 
-    .se-resize {
-      cursor: se-resize;
-    }
+.row-resize {
+	cursor: row-resize;
+}
 
-    .sw-resize {
-      cursor: sw-resize;
-    }
+.s-resize {
+	cursor: s-resize;
+}
 
-    .text {
-      cursor: text;
-    }
+.se-resize {
+	cursor: se-resize;
+}
 
-    .vertical-text {
-      cursor: vertical-text;
-    }
+.sw-resize {
+	cursor: sw-resize;
+}
 
-    .w-resize {
-      cursor: w-resize;
-    }
+.text {
+	cursor: text;
+}
 
-    .wait {
-      cursor: wait;
-    }
+.vertical-text {
+	cursor: vertical-text;
+}
 
-    .zoom-in {
-      cursor: zoom-in;
-    }
+.w-resize {
+	cursor: w-resize;
+}
 
-    .zoom-out {
-      cursor: zoom-out;
-    }
+.wait {
+	cursor: wait;
+}
+
+.zoom-in {
+	cursor: zoom-in;
+}
+
+.zoom-out {
+	cursor: zoom-out;
+}
