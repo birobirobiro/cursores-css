@@ -176,8 +176,8 @@ footer {
       cursor: text;
     }
 
-    .url {
-      cursor: url(myBall.cur), auto;
+    .vertical-text {
+      cursor: vertical-text;
     }
 
     .w-resize {
