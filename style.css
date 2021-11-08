@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+body {
+  background-color: #191622;
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+    .container {
+      width: 100vw;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .box {
+      display: flex;
+      font-weight: 700;
+      background-color: #988BC7;
+      width: 8rem;
+      height: 7rem;
+      justify-content: center;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 10px 10px 10px #41414D;
+      margin: 20px;
+    }
+
+    .box p {
+      font-size: 15px;
+    }
+    
+    .alias {
+      cursor: alias;
+    }
+
+    .all-scroll {
+      cursor: all-scroll;
+    }
+
+    .auto {
+      cursor: auto;
+    }
+
+    .cell {
+      cursor: cell;
+    }
+
+    .context-menu {
+      cursor: context-menu;
+    }
+
+    .col-resize {
+      cursor: col-resize;
+    }
+
+    .copy {
+      cursor: copy;
+    }
+
+    .crosshair {
+      cursor: crosshair;
+    }
+
+    .default {
+      cursor: default;
+    }
+
+    .e-resize {
+      cursor: e-resize;
+    }
+
+    .ew-resize {
+      cursor: ew-resize;
+    }
+
+    .grab {
+      cursor: -webkit-grab;
+      cursor: grab;
+    }
+
+    .grabbing {
+      cursor: -webkit-grabbing;
+      cursor: grabbing;
+    }
+
+    .help {
+      cursor: help;
+    }
+
+    .move {
+      cursor: move;
+    }
+
+    .n-resize {
+      cursor: n-resize;
+    }
+
+    .ne-resize {
+      cursor: ne-resize;
+    }
+
+    .nesw-resize {
+      cursor: nesw-resize;
+    }
+
+    .ns-resize {
+      cursor: ns-resize;
+    }
+
+    .nw-resize {
+      cursor: nw-resize;
+    }
+
+    .nwse-resize {
+      cursor: nwse-resize;
+    }
+
+    .no-drop {
+      cursor: no-drop;
+    }
+
+    .none {
+      cursor: none;
+    }
+
+    .not-allowed {
+      cursor: not-allowed;
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
+
+    .progress {
+      cursor: progress;
+    }
+
+    .row-resize {
+      cursor: row-resize;
+    }
+
+    .s-resize {
+      cursor: s-resize;
+    }
+
+    .se-resize {
+      cursor: se-resize;
+    }
+
+    .sw-resize {
+      cursor: sw-resize;
+    }
+
+    .text {
+      cursor: text;
+    }
+
+    .url {
+      cursor: url(myBall.cur), auto;
+    }
+
+    .w-resize {
+      cursor: w-resize;
+    }
+
+    .wait {
+      cursor: wait;
+    }
+
+    .zoom-in {
+      cursor: zoom-in;
+    }
+
+    .zoom-out {
+      cursor: zoom-out;
+    }
